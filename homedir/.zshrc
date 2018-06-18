@@ -16,7 +16,7 @@ POWERLEVEL9K_SHOW_CHANGESET=true
 #export ZSH_THEME="random"
 
 # Set to this to use case-sensitive completion
-export CASE_SENSITIVE="true"
+export CASE_SENSITIVE="false"
 
 # disable weekly auto-update checks
 # export DISABLE_AUTO_UPDATE="true"

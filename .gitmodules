@@ -7,3 +7,21 @@
 [submodule "homedir/.vim/bundle/Vundle.vim"]
 	path = homedir/.vim/bundle/Vundle.vim
 	url = git://github.com/VundleVim/Vundle.vim.git
+[submodule ".tmux"]
+	path = .tmux
+	url = https://github.com/gpakosz/.tmux.git
+[submodule "homedir/.vim/pack/d34dh0r53/start/nerdtree"]
+	path = homedir/.vim/pack/d34dh0r53/start/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "homedir/.vim/pack/d34dh0r53/start/syntastic"]
+	path = homedir/.vim/pack/d34dh0r53/start/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
+[submodule "homedir/.vim/pack/d34dh0r53/start/vim-airline"]
+	path = homedir/.vim/pack/d34dh0r53/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "homedir/.vim/pack/d34dh0r53/opt/vim-airline-themes"]
+	path = homedir/.vim/pack/d34dh0r53/opt/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "homedir/.vim/pack/d34dh0r53/start/vim-airline-themes"]
+	path = homedir/.vim/pack/d34dh0r53/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
