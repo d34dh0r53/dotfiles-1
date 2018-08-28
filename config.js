@@ -9,7 +9,7 @@ module.exports = {
     'dos2unix',
     // Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed
     'findutils',
-    'fortune',
+    // 'fortune',
     'readline', // ensure gawk gets good readline
     'gawk',
     // http://www.lcdf.org/gifsicle/ (because I'm a gif junky)
@@ -34,6 +34,7 @@ module.exports = {
     // better/more recent version of screen
     'homebrew/dupes/screen',
     'tmux',
+    'todo-txt',
     'tree',
     'ttyrec',
     // better, more recent vim
@@ -49,13 +50,17 @@ module.exports = {
     // 'box-sync',
     //'comicbooklover',
     //'diffmerge',
+    'docker', // docker for mac
     //'dropbox',
     //'evernote',
-    'gpgtools',
+    'flux',
+    'gpg-suite',
     //'ireadfast',
     'iterm2',
     'little-snitch',
+    'macbreakz',
     'micro-snitch',
+    'signal',
     //'macvim',
     'sizeup',
     //'sketchup',
@@ -63,11 +68,11 @@ module.exports = {
     'the-unarchiver',
     //'torbrowser',
     //'transmission',
+    'visual-studio-code',
     //'vlc',
     'xquartz'
   ],
   gem: [
-    'git-up'
   ],
   npm: [
     'antic',
@@ -75,8 +80,8 @@ module.exports = {
     'eslint',
     'instant-markdown-d',
     // 'generator-dockerize',
-    'gulp',
-    'npm-check',
+    // 'gulp',
+    'npm-check-updates',
     'prettyjson',
     'trash',
     'vtop'
