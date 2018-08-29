@@ -100,4 +100,3 @@ alias td="todo.sh"
 alias tda="todo.sh add"
 alias tdl="todo.sh list"
 alias tdd="todo.sh do"
->>>>>>> 3481d04f532009a665e03021c657de08adda1d34
