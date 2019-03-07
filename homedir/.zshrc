@@ -54,3 +54,7 @@ unsetopt correct
 
 # run fortune on new terminal :)
 # fortune
+
+# VI Shell Mode
+bindkey -v
+set -o vi
