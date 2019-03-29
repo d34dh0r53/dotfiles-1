@@ -91,7 +91,7 @@ alias spoton="sudo mdutil -a -i on"
 # Get macOS Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
 alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; mas upgrade; npm install npm -g; npm update -g; sudo gem update --system; sudo gem update; sudo gem cleanup'
 
-alias vtop="vtop --theme wizard --update-interval 500"
+alias vtop="vtop --theme wizard"
 
 alias jsonfix="pbpaste | jq . | pbcopy"
 
@@ -100,3 +100,8 @@ alias td="todo.sh"
 alias tda="todo.sh add"
 alias tdl="todo.sh list"
 alias tdd="todo.sh do"
+
+alias k='kubectl'
+alias kp='kubectl get pods -o wide'
+alias kdp='kubectl describe pod'
+alias kdn='kubectl describe node'
