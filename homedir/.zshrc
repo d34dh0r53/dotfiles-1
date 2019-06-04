@@ -28,9 +28,19 @@ export CASE_SENSITIVE="false"
 # disable autosetting terminal title.
 export DISABLE_AUTO_TITLE="true"
 
+# fzf configuration
+# Set fzf installation directory path
+export FZF_BASE=/usr/local/opt/fzf
+
+# Uncomment the following line to disable fuzzy completion
+# export DISABLE_FZF_AUTO_COMPLETION="true"
+
+# Uncomment the following line to disable key bindings (CTRL-T, CTRL-R, ALT-C)
+# export DISABLE_FZF_KEY_BINDINGS="true"
+
 # Which plugins would you like to load? (plugins can be found in ~/.dotfiles/oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(colorize compleat dirpersist autojump git gulp history cp vi-mode docker-compose docker-machine docker)
+plugins=(colorize compleat dirpersist autojump git gulp history cp vi-mode docker-compose docker-machine docker fzf)
 
 source $ZSH/oh-my-zsh.sh
 
