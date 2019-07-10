@@ -45,6 +45,7 @@ plugins=(colorize compleat dirpersist autojump git gulp history cp vi-mode docke
 source $ZSH/oh-my-zsh.sh
 
 source /usr/local/opt/nvm/nvm.sh
+source /usr/local/share/zsh/site-functions/*
 
 autoload -U add-zsh-hook
 load-nvmrc() {
