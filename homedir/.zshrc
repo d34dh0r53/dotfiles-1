@@ -1,3 +1,8 @@
+# Initialize completion FPATH
+if type brew &>/dev/null; then
+    FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+fi
+
 # Path to your oh-my-zsh configuration.
 export ZSH=$HOME/.dotfiles/oh-my-zsh
 # if you want to use this, change your non-ascii font to Droid Sans Mono for Awesome
@@ -45,7 +50,6 @@ plugins=(colorize compleat dirpersist autojump git gulp history cp vi-mode docke
 source $ZSH/oh-my-zsh.sh
 
 source /usr/local/opt/nvm/nvm.sh
-source /usr/local/share/zsh/site-functions/*
 
 autoload -U add-zsh-hook
 load-nvmrc() {
